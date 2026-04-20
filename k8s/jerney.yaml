@@ -181,7 +181,7 @@ spec:
 
       containers:
         - name: backend
-          image: ghcr.io/ShreenandBandre/Jerney/jerney-backend:97940c8
+          image: ghcr.io/ShreenandBandre/Jerney/jerney-backend:2d95bff
           ports:
             - containerPort: 5000
 
@@ -272,7 +272,7 @@ spec:
     spec:
       containers:
         - name: frontend
-          image: ghcr.io/ShreenandBandre/Jerney/jerney-frontend:97940c8
+          image: ghcr.io/ShreenandBandre/Jerney/jerney-frontend:2d95bff
           ports:
             - containerPort: 8080
 
