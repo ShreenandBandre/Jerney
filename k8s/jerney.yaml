@@ -181,11 +181,7 @@ spec:
 
       containers:
         - name: backend
-
-          # ✅ FIXED IMAGE NAME
-          image: shreenandbandre/jerney-backend:latest
-          imagePullPolicy: Always
-
+          image: ghcr.io/ShreenandBandre/Jerney/jerney-backend:97940c8
           ports:
             - containerPort: 5000
 
@@ -276,11 +272,7 @@ spec:
     spec:
       containers:
         - name: frontend
-
-          # ✅ FIXED IMAGE NAME
-          image: shreenandbandre/jerney-frontend:latest
-          imagePullPolicy: Always
-
+          image: ghcr.io/ShreenandBandre/Jerney/jerney-frontend:97940c8
           ports:
             - containerPort: 8080
 
